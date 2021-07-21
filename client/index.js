@@ -2,6 +2,12 @@ import ReactDOM from 'react-dom';
 
 import App from './components/App';
 
-const app = document.getElementById('app');
+const root = document.getElementById('app');
 
-ReactDOM.render(<App />, app);
+ReactDOM.render(
+  <div>
+    <App />
+    <h1>this is a test</h1>
+  </div>,
+  root
+);
