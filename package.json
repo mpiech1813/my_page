@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production",
-    "build:dev": "npm run build -- --watch --mode=development",
+    "build": "webpack",
+    "build:dev": "webpack -w",
     "start": "node server/index.js",
-    "start:dev": "npm run build:dev & nodemon server/index.js --ignore server/public"
+    "start:dev": "nodemon server/index.js --ignore server/public & npm run build:dev"
   },
   "keywords": [],
   "author": "",
