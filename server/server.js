@@ -14,6 +14,8 @@ app.get('/', (req, res, next) => {
   // console.log(__dirname)
 });
 
+app.use('/public', express.static(path.join(__dirname, 'public')));
+
 // to handle any type of error message
 app.use((err, req, res, next) => {
   console.log(err);
