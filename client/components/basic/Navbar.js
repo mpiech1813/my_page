@@ -15,6 +15,9 @@ class NavBar extends Component {
         <Link to="/projects" style={{ textDecoration: 'none' }}>
           <MainLink>Projects</MainLink>
         </Link>
+        <Link to="/achievements" style={{ textDecoration: 'none' }}>
+          <MainLink>Achievements</MainLink>
+        </Link>
         <Link to="/contact" style={{ textDecoration: 'none' }}>
           <MainLink>Contact Me</MainLink>
         </Link>

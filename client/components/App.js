@@ -7,6 +7,7 @@ import About from './main/About';
 import Home from './main/Home';
 import Contact from './main/Contact';
 import Projects from './main/Projects';
+import Achievements from './main/Diplomas';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/projects" component={Projects} />
+            <Route path="/achievements" component={Achievements} />
           </Switch>
           <Route component={Footer} />
         </Router>
