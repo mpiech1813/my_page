@@ -1,8 +1,9 @@
-#app {
-  border: 1px solid blue;
+body {
   margin: 0;
+  /* background-image: ; */
+  background-color: black;
 }
 
-body {
-  padding: 0;
+#app {
+  margin: 0;
 }

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { Title } from '../../style';
 
 class Projects extends Component {
   render() {
     return (
       <div>
-        <h1>This is Projects page</h1>
+        <Title>This is Projects page</Title>
       </div>
     );
   }

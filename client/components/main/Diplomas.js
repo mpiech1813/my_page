@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Title } from '../../style';
 
-class About extends Component {
+class Diplomas extends Component {
   render() {
     return (
       <div>
-        <Title>This is the About Me section</Title>
+        <Title>This is the Achievement page</Title>
       </div>
     );
   }
 }
 
-export default About;
+export default Diplomas;
