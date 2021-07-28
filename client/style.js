@@ -15,7 +15,12 @@ export const Nav = styled.div`
   border-radius: 15px;
 `;
 
+export const Title = styled.h1`
+  color: white;
+`;
+
 export default {
   Nav,
   MainLink,
+  Title,
 };

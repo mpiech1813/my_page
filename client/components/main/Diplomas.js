@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { Title } from '../../style';
 
 class Diplomas extends Component {
   render() {
     return (
       <div>
-        <h1>This is the Achievement page</h1>
+        <Title>This is the Achievement page</Title>
       </div>
     );
   }
