@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ReactCSSTransitionGroup from 'react-transition-group';
 import { Nav, NavScrolled, MainLink } from '../../style';
 
 const NavBar = () => {
@@ -7,7 +8,7 @@ const NavBar = () => {
 
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 200) {
+        if (offset > 100) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -19,11 +20,7 @@ const NavBar = () => {
     });
 
     let NavName = Nav;
-    if (scrolled) {
-        NavName = NavScrolled;
-    } else {
-        NavName = Nav;
-    }
+    scrolled ? (NavName = NavScrolled) : (NavName = Nav);
 
     return (
         <NavName>

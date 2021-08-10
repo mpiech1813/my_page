@@ -5,14 +5,12 @@ import faker from 'faker';
 class Home extends Component {
     render() {
         const dataArr = new Array(10).fill(faker.lorem.paragraphs());
-        let key = 0;
         return (
             <div>
                 <Title>This is Home page</Title>
                 <div style={{ color: 'blue' }}>
-                    {dataArr.map((element) => {
-                        key++;
-                        return <p key={key}>{element}</p>;
+                    {dataArr.map((element, i) => {
+                        return <p key={i}>{element}</p>;
                     })}
                 </div>
             </div>
