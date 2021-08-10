@@ -16,25 +16,8 @@ export const Nav = styled.div`
 `;
 
 export const changeAnimation = keyframes`
-    0% {
-        height: 0px;
-    }
-    // 25%{
-    //     height: 20px;
-    //     opacity : 0.2;
-    // }
-    // 50% {
-    //     height: 40px;
-    //     opacity : 0.4;
-    // }
-    // 75% {
-    //     height: 60px;
-    //     opacity : 0.6;
-    // }
-    100% {
-        height: 60px;
-        opacity : 1;
-    }
+    from {height: 0px;}
+    to {height: 60px;}
 `;
 
 export const NavScrolled = styled.div`
