@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
         const dataArr = new Array(10).fill(faker.lorem.paragraphs());
         return (
-            <div>
+            <div id='home'>
                 <Title>This is Home page</Title>
                 <div style={{ color: 'blue' }}>
                     {dataArr.map((element, i) => {

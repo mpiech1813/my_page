@@ -6,7 +6,7 @@ class Contact extends Component {
     render() {
         const dataArr = new Array(10).fill(faker.lorem.paragraphs());
         return (
-            <div>
+            <div id='contact'>
                 <Title>This is the Contact Section</Title>
                 <div style={{ color: 'yellow' }}>
                     {dataArr.map((element, i) => {

@@ -6,7 +6,7 @@ class Projects extends Component {
     render() {
         const dataArr = new Array(18).fill(faker.lorem.paragraphs());
         return (
-            <div>
+            <div id='projects'>
                 <Title>This is Projects page</Title>
                 <div style={{ color: 'green' }}>
                     {dataArr.map((element, i) => {
