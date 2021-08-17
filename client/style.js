@@ -15,7 +15,7 @@ export const Nav = styled.div`
     width: 99%;
 `;
 
-export const changeAnimation = keyframes`
+export const changeAnimationDown = keyframes`
     from {height: 0px;}
     to {height: 60px;}
 `;
@@ -28,9 +28,9 @@ export const NavScrolled = styled.div`
     align-items: center;
     border: 1px solid red;
     border-radius: 15px;
-    width: 100%;
+    width: 99%;
     background: #001a00;
-    animation: ${changeAnimation} 0.5s;
+    animation: ${changeAnimationDown} 0.5s;
     font-size: 1rem;
 `;
 
