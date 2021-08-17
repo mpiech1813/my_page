@@ -13,24 +13,38 @@ ReactDOM.render(
             <Route path='/home' render={() => window.scrollTo(0, 0)} exact />
             <Route
                 path='/about'
-                render={() => document.getElementById('about').scrollIntoView()}
+                render={() => {
+                    document.getElementById('about').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start',
+                    });
+                }}
             />
             <Route
                 path='/contact'
                 render={() =>
-                    document.getElementById('contact').scrollIntoView()
+                    document.getElementById('contact').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start',
+                    })
                 }
             />
             <Route
                 path='/projects'
                 render={() =>
-                    document.getElementById('projects').scrollIntoView()
+                    document.getElementById('projects').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start',
+                    })
                 }
             />
             <Route
                 path='/achievements'
                 render={() =>
-                    document.getElementById('achievements').scrollIntoView()
+                    document.getElementById('achievements').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start',
+                    })
                 }
             />
         </div>
