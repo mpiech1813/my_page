@@ -10,7 +10,6 @@ class About extends Component {
                 <Title id='about'>This is the About Me section</Title>
                 <div style={{ color: 'white' }}>
                     {dataArr.map((element, i) => {
-                        // {console.log(key)}
                         return <p key={i}>{element}</p>;
                     })}
                 </div>

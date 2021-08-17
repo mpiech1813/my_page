@@ -10,17 +10,10 @@ ReactDOM.render(
     <Router>
         <div>
             <App />
-            <Route
-                path='/home'
-                // render={() => console.log('home triggered')}
-
-                render={() => window.scrollTo(0, 0)}
-                exact
-            />
+            <Route path='/home' render={() => window.scrollTo(0, 0)} exact />
             <Route
                 path='/about'
                 render={() => document.getElementById('about').scrollIntoView()}
-                // render={() => console.log('about triggered')}
             />
             <Route
                 path='/contact'
