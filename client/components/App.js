@@ -13,8 +13,15 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Router>
-                    <Route component={NavBar} />
+                {/* <Router> */}
+                <NavBar />
+                <Home />
+                <About />
+                <Contact />
+                <Projects />
+                <Achievements />
+                <Footer />
+                {/* <Route component={NavBar} />
                     <Route
                         path='/'
                         component={Home}
@@ -53,16 +60,17 @@ class App extends Component {
                                 .getElementById('achievements')
                                 .scrollIntoView();
                         }}
-                    />
-                    {/* <Switch>
+                    /> */}
+                {/* =========================================================================================================================*/}
+                {/* <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/projects" component={Projects} />
             <Route path="/achievements" component={Achievements} />
           </Switch> */}
-                    <Route component={Footer} />
-                </Router>
+                {/* {/* <Route component={Footer} /> */}
+                {/* </Router> */}
             </div>
         );
     }

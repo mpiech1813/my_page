@@ -6,7 +6,7 @@ class Diplomas extends Component {
     render() {
         const dataArr = new Array(20).fill(faker.lorem.paragraphs());
         return (
-            <div id='achievemtns'>
+            <div id='achievements'>
                 <Title>This is the Achievement page</Title>
                 <div style={{ color: 'red' }}>
                     {dataArr.map((element, i) => {
