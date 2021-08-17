@@ -15,11 +15,45 @@ class App extends Component {
             <div>
                 <Router>
                     <Route component={NavBar} />
-                    <Route component={Home} />
-                    <Route component={About} />
-                    <Route component={Contact} />
-                    <Route component={Projects} />
-                    <Route component={Achievements} />
+                    <Route
+                        path='/'
+                        component={Home}
+                        onEnter={() => {
+                            document.getElementById('home').scrollIntoView();
+                        }}
+                    />
+                    <Route
+                        path='/about'
+                        component={About}
+                        onEnter={() => {
+                            document.getElementById('about').scrollIntoView();
+                        }}
+                    />
+                    <Route
+                        path='/contact'
+                        component={Contact}
+                        onEnter={() => {
+                            document.getElementById('contact').scrollIntoView();
+                        }}
+                    />
+                    <Route
+                        path='/projects'
+                        component={Projects}
+                        onEnter={() => {
+                            document
+                                .getElementById('projects')
+                                .scrollIntoView();
+                        }}
+                    />
+                    <Route
+                        path='/achievements'
+                        component={Achievements}
+                        onEnter={() => {
+                            document
+                                .getElementById('achievements')
+                                .scrollIntoView();
+                        }}
+                    />
                     {/* <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
