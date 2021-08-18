@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Title } from '../../style';
+import { Title, Break } from '../../style';
 import faker from 'faker';
 
 class Diplomas extends Component {
     render() {
         const dataArr = new Array(20).fill(faker.lorem.paragraphs());
         return (
-            <div>
+            <div id='achievements'>
+                <Break />
                 <Title>This is the Achievement page</Title>
                 <div style={{ color: 'red' }}>
                     {dataArr.map((element, i) => {

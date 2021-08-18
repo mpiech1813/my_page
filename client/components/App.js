@@ -10,23 +10,19 @@ import Projects from './main/Projects';
 import Achievements from './main/Diplomas';
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <Router>
-          <Route component={NavBar} />
-          <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/achievements" component={Achievements} />
-          </Switch>
-          <Route component={Footer} />
-        </Router>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <NavBar />
+                <Home />
+                <About />
+                <Projects />
+                <Achievements />
+                <Contact />
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;

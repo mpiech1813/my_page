@@ -10,12 +10,11 @@ export const Nav = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     border-radius: 15px;
-    width: 99%;
+    // width: 99%;
 `;
 
-export const changeAnimation = keyframes`
+export const changeAnimationDown = keyframes`
     from {height: 0px;}
     to {height: 60px;}
 `;
@@ -26,16 +25,19 @@ export const NavScrolled = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     border-radius: 15px;
-    width: 100%;
+    width: 99%;
     background: #001a00;
-    animation: ${changeAnimation} 0.5s;
+    animation: ${changeAnimationDown} 0.5s;
     font-size: 1rem;
 `;
 
 export const Title = styled.h1`
     color: white;
+`;
+
+export const Break = styled.div`
+    height: 120px;
 `;
 
 export default {

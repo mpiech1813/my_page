@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import ReactCSSTransitionGroup from 'react-transition-group';
 import { Nav, NavScrolled, MainLink } from '../../style';
 
 const NavBar = () => {
@@ -24,19 +23,19 @@ const NavBar = () => {
 
     return (
         <NavName>
-            <Link to='/' style={{ textDecoration: 'none' }}>
+            <Link to='home' style={{ textDecoration: 'none' }}>
                 <MainLink>Home</MainLink>
             </Link>
-            <Link to='/about' style={{ textDecoration: 'none' }}>
+            <Link to='about' style={{ textDecoration: 'none' }}>
                 <MainLink>About Me</MainLink>
             </Link>
-            <Link to='/projects' style={{ textDecoration: 'none' }}>
+            <Link to='projects' style={{ textDecoration: 'none' }}>
                 <MainLink>Projects</MainLink>
             </Link>
-            <Link to='/achievements' style={{ textDecoration: 'none' }}>
+            <Link to='achievements' style={{ textDecoration: 'none' }}>
                 <MainLink>Achievements</MainLink>
             </Link>
-            <Link to='/contact' style={{ textDecoration: 'none' }}>
+            <Link to='contact' style={{ textDecoration: 'none' }}>
                 <MainLink>Contact Me</MainLink>
             </Link>
         </NavName>
