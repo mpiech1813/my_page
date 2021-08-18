@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Title } from '../../style';
+import { Title, Break } from '../../style';
 import faker from 'faker';
 
 class Projects extends Component {
@@ -7,6 +7,7 @@ class Projects extends Component {
         const dataArr = new Array(18).fill(faker.lorem.paragraphs());
         return (
             <div id='projects'>
+                <Break />
                 <Title>This is Projects page</Title>
                 <div style={{ color: 'green' }}>
                     {dataArr.map((element, i) => {

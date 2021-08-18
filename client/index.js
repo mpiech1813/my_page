@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import App from './components/App';
 
@@ -10,7 +10,11 @@ ReactDOM.render(
     <Router>
         <div>
             <App />
-            <Route path='/home' render={() => window.scrollTo(0, 0)} exact />
+            <Route
+                path='/home'
+                render={() => window.scrollTo({ behavior: 'smooth', top: 0 })}
+                exact
+            />
             <Route
                 path='/about'
                 render={() => {
