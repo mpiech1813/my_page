@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
+import { MainContainer } from '../style';
 import Footer from './basic/Footer';
 import NavBar from './basic/Navbar';
 import About from './main/About';
@@ -14,11 +14,13 @@ class App extends Component {
         return (
             <div>
                 <NavBar />
-                <Home />
-                <About />
-                <Projects />
-                <Achievements />
-                <Contact />
+                <MainContainer>
+                    <Home />
+                    <About />
+                    <Projects />
+                    <Achievements />
+                    <Contact />
+                </MainContainer>
                 <Footer />
             </div>
         );

@@ -2,7 +2,9 @@ import styled, { keyframes } from 'styled-components';
 
 export const MainContainer = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 `;
 
 export const MainLink = styled.h1`
@@ -49,4 +51,5 @@ export default {
     Nav,
     MainLink,
     Title,
+    MainContainer,
 };
