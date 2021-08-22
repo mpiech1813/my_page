@@ -3,26 +3,26 @@ import { Link } from 'react-router-dom';
 import { Nav, NavScrolled, MainLink } from '../../style';
 
 const NavBar = () => {
-    const [scrolled, setScrolled] = useState(false);
+    // const [scrolled, setScrolled] = useState(false);
 
-    const handleScroll = () => {
-        const offset = window.scrollY;
-        if (offset > 100) {
-            setScrolled(true);
-        } else {
-            setScrolled(false);
-        }
-    };
+    // const handleScroll = () => {
+    //     const offset = window.scrollY;
+    //     if (offset > 100) {
+    //         setScrolled(true);
+    //     } else {
+    //         setScrolled(false);
+    //     }
+    // };
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-    });
+    // useEffect(() => {
+    //     window.addEventListener('scroll', handleScroll);
+    // });
 
-    let NavName = Nav;
-    scrolled ? (NavName = NavScrolled) : (NavName = Nav);
+    // let NavName = Nav;
+    // scrolled ? (NavName = NavScrolled) : (NavName = Nav);
 
     return (
-        <NavName>
+        <Nav>
             <Link to='home' style={{ textDecoration: 'none' }}>
                 <MainLink>Home</MainLink>
             </Link>
@@ -38,7 +38,7 @@ const NavBar = () => {
             <Link to='contact' style={{ textDecoration: 'none' }}>
                 <MainLink>Contact Me</MainLink>
             </Link>
-        </NavName>
+        </Nav>
     );
 };
 

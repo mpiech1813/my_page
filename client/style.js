@@ -1,5 +1,10 @@
 import styled, { keyframes } from 'styled-components';
 
+export const MainContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
+
 export const MainLink = styled.h1`
     text-decoration: none;
     font-size: 1.5rem;
