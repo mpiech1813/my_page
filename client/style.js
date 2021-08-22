@@ -1,6 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 
 export const MainContainer = styled.div`
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,9 +15,12 @@ export const MainLink = styled.h1`
     font-weight: bold;
 `;
 export const Nav = styled.div`
+    flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    // align-self: flex-end;
     border-radius: 15px;
     // width: 99%;
 `;

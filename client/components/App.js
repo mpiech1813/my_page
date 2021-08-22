@@ -13,14 +13,16 @@ class App extends Component {
     render() {
         return (
             <div>
-                <NavBar />
-                <MainContainer>
-                    <Home />
-                    <About />
-                    <Projects />
-                    <Achievements />
-                    <Contact />
-                </MainContainer>
+                <div style={{ display: 'flex' }}>
+                    <NavBar />
+                    <MainContainer>
+                        <Home />
+                        <About />
+                        <Projects />
+                        <Achievements />
+                        <Contact />
+                    </MainContainer>
+                </div>
                 <Footer />
             </div>
         );
