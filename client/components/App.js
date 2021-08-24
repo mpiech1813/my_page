@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import StickyBox from 'react-sticky-box';
 
 import { MainContainer } from '../style';
 import Footer from './basic/Footer';
@@ -13,8 +14,10 @@ class App extends Component {
     render() {
         return (
             <div>
-                <div style={{ display: 'flex' }}>
-                    <NavBar />
+                <div style={{ display: 'flex', alignItems: 'flex-start' }}>
+                    <StickyBox>
+                        <NavBar />
+                    </StickyBox>
                     <MainContainer>
                         <Home />
                         <About />

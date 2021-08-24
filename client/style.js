@@ -15,13 +15,17 @@ export const MainLink = styled.h1`
     font-weight: bold;
 `;
 export const Nav = styled.div`
-    flex: 1;
+    flex: 0 0 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    // flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100%;
+    // position: fixed;
+    // z-index: 1;
     // align-self: flex-end;
-    border-radius: 15px;
+    // border-radius: 15px;
     // width: 99%;
 `;
 
