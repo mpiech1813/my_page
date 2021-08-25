@@ -3,24 +3,6 @@ import { Link } from 'react-router-dom';
 import { Nav, NavScrolled, MainLink } from '../../style';
 
 const NavBar = () => {
-    // const [scrolled, setScrolled] = useState(false);
-
-    // const handleScroll = () => {
-    //     const offset = window.scrollY;
-    //     if (offset > 100) {
-    //         setScrolled(true);
-    //     } else {
-    //         setScrolled(false);
-    //     }
-    // };
-
-    // useEffect(() => {
-    //     window.addEventListener('scroll', handleScroll);
-    // });
-
-    // let NavName = Nav;
-    // scrolled ? (NavName = NavScrolled) : (NavName = Nav);
-
     return (
         <Nav>
             <Link to='home' style={{ textDecoration: 'none' }}>
