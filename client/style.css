@@ -1,5 +1,12 @@
 /* for prectice only */
 
 h1 {
-  color: white;
+    color: white;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

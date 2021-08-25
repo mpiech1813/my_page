@@ -1,5 +1,13 @@
 import styled, { keyframes } from 'styled-components';
 
+export const MainContainer = styled.div`
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+`;
+
 export const MainLink = styled.h1`
     text-decoration: none;
     font-size: 1.5rem;
@@ -7,10 +15,17 @@ export const MainLink = styled.h1`
     font-weight: bold;
 `;
 export const Nav = styled.div`
+    flex: 0 0 100px;
     display: flex;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    // flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    height: 100%;
+    // position: fixed;
+    // z-index: 1;
+    // align-self: flex-end;
+    // border-radius: 15px;
     // width: 99%;
 `;
 
@@ -44,4 +59,5 @@ export default {
     Nav,
     MainLink,
     Title,
+    MainContainer,
 };
