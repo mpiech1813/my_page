@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Nav, NavScrolled, MainLink } from '../../style';
+import { Nav, MainLink } from '../../style';
+// import logo from './logo.png';
 
 const NavBar = () => {
     return (
         <Nav>
+            <img src='/public/assets/logo.png' width='130px' alt='Logo' />
             <Link to='home' style={{ textDecoration: 'none' }}>
                 <MainLink>Home</MainLink>
             </Link>
