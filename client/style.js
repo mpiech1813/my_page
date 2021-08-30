@@ -17,10 +17,12 @@ export const MainLink = styled.h1`
 export const Nav = styled.div`
     flex: 0 0 100px;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    height: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+
+    // height: 100%;
 `;
 
 export const Title = styled.h1`
