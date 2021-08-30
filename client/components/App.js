@@ -20,11 +20,7 @@ class App extends Component {
                         alignItems: 'flex-start',
                     }}
                 >
-                    <StickyBox
-                        style={{
-                            border: 'solid red 1px',
-                        }}
-                    >
+                    <StickyBox>
                         <NavBar />
                     </StickyBox>
                     <MainContainer>
