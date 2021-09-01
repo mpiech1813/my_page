@@ -5,8 +5,10 @@ h1 {
 }
 
 div {
+    flex: 0 0 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-around;
     align-items: center;
+    height: 100%;
 }

@@ -14,7 +14,12 @@ class App extends Component {
     render() {
         return (
             <div>
-                <div style={{ display: 'flex', alignItems: 'flex-start' }}>
+                <div
+                    style={{
+                        display: 'flex',
+                        alignItems: 'flex-start',
+                    }}
+                >
                     <StickyBox>
                         <NavBar />
                     </StickyBox>
