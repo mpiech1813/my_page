@@ -1,0 +1,5 @@
+const PROJECTS_VISIBLE = 'PROJECTS_VISIBLE';
+
+const types = {
+    PROJECTS_VISIBLE,
+};
