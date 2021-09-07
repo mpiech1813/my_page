@@ -1,15 +1,27 @@
-// export default function useOnScreen(ref) {
-//     const [isIntersectiong, setIntersecting] = useState(false);
+import { useState, useEffect } from 'react';
 
-//     const observer = new IntersectionObserver(([entry]) =>
-//         setIntersecting(entry.isIntersecting)
-//     );
+export default (element, rootMargin) => {
+    const [isVisible, setState] = useState(false);
 
-//     useEffect(() => {
-//         observer.observe(ref.current);
-//         return () => {
-//             observer.disconnect();
-//         };
-//     }, []);
-//     return isIntersectiong;
-// }
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setState(entry.isIntersecting);
+                    observer.unobserve(element);
+                }
+            },
+            {
+                rootMargin,
+            }
+        );
+
+        element && observer.observe(element);
+
+        return () => {
+            observer.unobserve(element);
+        };
+    }, []);
+
+    return isVisible;
+};
