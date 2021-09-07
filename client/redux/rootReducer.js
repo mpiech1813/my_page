@@ -1,9 +1,9 @@
 import type from './types';
 
-import projectsReducers from './components/Projects/projectReducer';
+import componentReducers from './reducer';
 
 const rootReducer = combineReducers({
-    projects: projectsReducers,
+    component: componentReducers,
 });
 
 export default rootReducer;
