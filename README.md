@@ -4,6 +4,10 @@ This is my personal portfolio website.
 
 ## Currently Working on:
 
+-   created the redux state, need the following:
+    -- new game plan, thunk will update the state with the name of component which we are looking at
+    -- will need on one action and 1 reducer
+    -- connect Projects component redux state
 -   set up redux or just a single state for true/false if visible
 -   https://www.youtube.com/watch?v=doTRQvNLXVQ
 -   will need a separate state for each component

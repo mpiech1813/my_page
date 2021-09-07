@@ -3,6 +3,13 @@ import { Title, Break } from '../../style';
 import faker from 'faker';
 
 class Projects extends Component {
+    constructor(props) {
+        super(props)
+        this.state ={
+            visible: false;
+        }
+    }
+    
     render() {
         const dataArr = new Array(18).fill(faker.lorem.paragraphs());
         return (
@@ -19,4 +26,16 @@ class Projects extends Component {
     }
 }
 
-export default Projects;
+const mapStateToProps = (state)=>{
+    return{
+        visible: state.projects
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Projects);
