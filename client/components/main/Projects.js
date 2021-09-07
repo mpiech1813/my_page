@@ -13,7 +13,7 @@ class Projects extends Component {
     }
 
     actionButton = () => {
-        console.log(this.props);
+        this.props.loadComponent('Projects');
     };
 
     render() {
@@ -41,7 +41,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        loadComponent: () => console.log('working'),
+        loadComponent: (name) => dispatch(loadComponent(name)),
     };
 };
 

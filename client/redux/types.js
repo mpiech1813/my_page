@@ -1,5 +1,7 @@
-const VISIBLE_COMPNENT = 'VISIBLE_COMPNENT';
+const VISIBLE_COMPONENT = 'VISIBLE_COMPONENT';
 
 const types = {
-    VISIBLE_COMPNENT,
+    VISIBLE_COMPONENT,
 };
+
+export default types;
