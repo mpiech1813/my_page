@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, useRef } from 'react';
 import { connect } from 'react-redux';
 import { Title, Break } from '../../style';
 import { loadComponent } from '../../redux/action';
+import useIntersection from '../../util';
 import faker from 'faker';
 
 class Projects extends Component {
@@ -17,7 +18,14 @@ class Projects extends Component {
     };
 
     render() {
+        const ref = document.getElementById('projects');
+        const inViewport = () => useIntersection(ref, '0px');
         const dataArr = new Array(18).fill(faker.lorem.paragraphs());
+
+        if (inViewport) {
+            console.log('in viewport');
+        }
+
         return (
             <div id='projects'>
                 <Break />
@@ -41,7 +49,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        loadComponent: (name) => dispatch(loadComponent(name)),
+        loadComponent: () => console.log('Found me'),
+        // loadComponent: (name) => dispatch(loadComponent(name)),
     };
 };
 
