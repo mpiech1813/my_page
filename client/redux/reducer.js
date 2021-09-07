@@ -4,11 +4,11 @@ const initialState = {
     visible: '',
 };
 
-const projectsReducers = (state = initialState, action) => {
+const componentReducers = (state = initialState, action) => {
     if (action.type === types.VISIBLE_COMPNENT) {
         state = action.visible;
     }
     return state;
 };
 
-export default projectsReducers;
+export default componentReducers;
