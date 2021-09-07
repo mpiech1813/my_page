@@ -1,5 +1,4 @@
-import type from './types';
-
+import { combineReducers } from 'redux';
 import componentReducers from './reducer';
 
 const rootReducer = combineReducers({

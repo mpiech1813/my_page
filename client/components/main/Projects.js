@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Title, Break } from '../../style';
+import { loadComponent } from '../../redux/action';
 import faker from 'faker';
 
 class Projects extends Component {
@@ -10,12 +12,17 @@ class Projects extends Component {
         };
     }
 
+    actionButton = () => {
+        console.log(this.props);
+    };
+
     render() {
         const dataArr = new Array(18).fill(faker.lorem.paragraphs());
         return (
             <div id='projects'>
                 <Break />
                 <Title>This is Projects page</Title>
+                <button onClick={() => this.actionButton()}>Check me</button>
                 <div style={{ color: 'green' }}>
                     {dataArr.map((element, i) => {
                         return <p key={i}>{element}</p>;
@@ -34,7 +41,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        laodComponent: () => console.log('working'),
+        loadComponent: () => console.log('working'),
     };
 };
 

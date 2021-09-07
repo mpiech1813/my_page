@@ -1,6 +1,6 @@
 import types from './types';
 
-export const laodComponent = (visible) => {
+export const loadComponent = (visible) => {
     return {
         type: types.VISIBLE_COMPNENT,
         visible,
