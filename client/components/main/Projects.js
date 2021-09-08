@@ -30,7 +30,7 @@ class Projects extends Component {
             <div id='projects'>
                 <Break />
                 <Title>This is Projects page</Title>
-                <button onClick={() => this.actionButton()}>Check me</button>
+                {/* <button onClick={() => this.actionButton()}>Check me</button> */}
                 <div style={{ color: 'green' }}>
                     {dataArr.map((element, i) => {
                         return <p key={i}>{element}</p>;

@@ -22,10 +22,11 @@ export const Nav = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
+    background-color: black;
 `;
 
 export const Title = styled.h1`
-    color: white;
+    // color: black;
 `;
 
 export const Break = styled.div`
