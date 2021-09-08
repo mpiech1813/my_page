@@ -40,6 +40,11 @@ export const Br = styled.hr`
     height: 0.2rem;
 `;
 
+export const Home = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+`;
+
 export default {
     Nav,
     MainLink,
