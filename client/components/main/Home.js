@@ -36,7 +36,9 @@ class Home extends Component {
                         <div>
                             <FontAwesomeIcon icon={faEnvelope} />
                             <PBlock> </PBlock>
-                            <PBlock>maciejpiech18@gmail.com</PBlock>
+                            <a href='mailto: maciejpiech18@gmail.com'>
+                                maciejpiech18@gmail.com
+                            </a>
                         </div>
                         <SpaceDiv />
 

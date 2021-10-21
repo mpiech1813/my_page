@@ -42,9 +42,9 @@ export const Br = styled.hr`
 `;
 
 export const HomePage = styled.div`
+    padding: 0px 0px 0px 1rem;
     display: flex;
     flex-direction: column;
-    border: solid 1px red;
 `;
 
 export const ContentDiv = styled.div`
