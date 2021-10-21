@@ -49,7 +49,7 @@ export const HomePage = styled.div`
 
 export const ContentDiv = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 `;
 
 export const PBlock = styled.p`

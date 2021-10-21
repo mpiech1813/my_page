@@ -12,8 +12,8 @@ import { Title, Break, HomePage, ContentDiv, PBlock } from '../../style';
 class Home extends Component {
     render() {
         return (
-            <HomePage id='home'>
-                <Break />
+            <HomePage>
+                {/* <Break /> */}
                 <Title>Kacper Piech</Title>
                 {/* <div style={{ color: 'blue' }}>
                     {dataArr.map((element, i) => {
@@ -37,7 +37,13 @@ class Home extends Component {
                             <PBlock>Greater Chicago Area</PBlock>
                         </div>
                     </ContentDiv>
-                    <hr style={{ border: '0px' }} />
+                    <hr
+                        style={{
+                            border: '0px',
+                            paddingTop: '1rem',
+                            paddingBottom: '1rem',
+                        }}
+                    />
                     <ContentDiv>
                         <div>
                             <FontAwesomeIcon icon={faPhoneSquareAlt} />
