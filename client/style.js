@@ -49,7 +49,11 @@ export const HomePage = styled.div`
 
 export const ContentDiv = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+`;
+
+export const PBlock = styled.p`
+    display: inline;
 `;
 
 export default {
@@ -59,4 +63,6 @@ export default {
     MainContainer,
     Br,
     HomePage,
+    ContentDiv,
+    PBlock,
 };

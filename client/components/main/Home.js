@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import { Title, Break, HomePage } from '../../style';
+import { Title, Break, HomePage, ContentDiv, PBlock } from '../../style';
 
 class Home extends Component {
     render() {
@@ -21,7 +21,7 @@ class Home extends Component {
                     })}
                 </div> */}
                 <div>
-                    <div>
+                    <ContentDiv>
                         <div>
                             <FontAwesomeIcon icon={faLinkedin} />
                             <a href='https://www.linkedin.com/in/kacperpiech/'>
@@ -30,23 +30,24 @@ class Home extends Component {
                         </div>
                         <div>
                             <FontAwesomeIcon icon={faEnvelope} />
-                            <p>maciejpiech18@gmail.com</p>
+                            <PBlock>maciejpiech18@gmail.com</PBlock>
                         </div>
                         <div>
                             <FontAwesomeIcon icon={faLocationArrow} />
-                            <p>Greater Chicago Area</p>
+                            <PBlock>Greater Chicago Area</PBlock>
                         </div>
-                    </div>
-                    <div>
+                    </ContentDiv>
+                    <hr style={{ border: '0px' }} />
+                    <ContentDiv>
                         <div>
                             <FontAwesomeIcon icon={faPhoneSquareAlt} />
-                            <p>(847) 361-5381</p>
+                            <PBlock>(847) 361-5381</PBlock>
                         </div>
                         <div>
                             <FontAwesomeIcon icon={faGithub} />
                             <a href='https://github.com/mpiech1813'>GitHub</a>
                         </div>
-                    </div>
+                    </ContentDiv>
                 </div>
             </HomePage>
         );
