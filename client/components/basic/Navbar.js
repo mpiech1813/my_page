@@ -1,11 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, MainLink, Br } from '../../style';
-// import useOnScreen from '../../util';
 
 const NavBar = () => {
     const ref = useRef();
-    // const isVisible = useOnScreen(ref);
 
     return (
         <Nav>

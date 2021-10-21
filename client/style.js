@@ -1,11 +1,11 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const MainContainer = styled.div`
     flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 `;
 
 export const MainLink = styled.h1`
@@ -23,6 +23,7 @@ export const Nav = styled.div`
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
     background-color: black;
+    height: 96.7vh;
 `;
 
 export const Title = styled.h1`
@@ -40,9 +41,15 @@ export const Br = styled.hr`
     height: 0.2rem;
 `;
 
-export const Home = styled.div`
+export const HomePage = styled.div`
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid 1px red;
+`;
+
+export const ContentDiv = styled.div`
+    display: flex;
+    justify-content: space-between;
 `;
 
 export default {
@@ -51,4 +58,5 @@ export default {
     Title,
     MainContainer,
     Br,
+    HomePage,
 };

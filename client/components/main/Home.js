@@ -3,17 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faEnvelope,
     faPhoneSquareAlt,
+    faLocationArrow,
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import { Title, Break } from '../../style';
-import faker from 'faker';
+import { Title, Break, HomePage } from '../../style';
 
 class Home extends Component {
     render() {
-        const dataArr = new Array(10).fill(faker.lorem.paragraphs());
         return (
-            <div id='home'>
+            <HomePage id='home'>
                 <Break />
                 <Title>Kacper Piech</Title>
                 {/* <div style={{ color: 'blue' }}>
@@ -23,23 +22,33 @@ class Home extends Component {
                 </div> */}
                 <div>
                     <div>
-                        <FontAwesomeIcon icon={faEnvelope} />
-                        <p>maciejpiech18@gmail.com</p>
+                        <div>
+                            <FontAwesomeIcon icon={faLinkedin} />
+                            <a href='https://www.linkedin.com/in/kacperpiech/'>
+                                LinkedIn
+                            </a>
+                        </div>
+                        <div>
+                            <FontAwesomeIcon icon={faEnvelope} />
+                            <p>maciejpiech18@gmail.com</p>
+                        </div>
+                        <div>
+                            <FontAwesomeIcon icon={faLocationArrow} />
+                            <p>Greater Chicago Area</p>
+                        </div>
                     </div>
                     <div>
-                        <FontAwesomeIcon icon={faPhoneSquareAlt} />
-                        <p>(847) 361-5381</p>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faLinkedin} />
-                        <p>linkedin.com/in/kacperpiech</p>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faGithub} />
-                        <p>https://github.com/mpiech1813</p>
+                        <div>
+                            <FontAwesomeIcon icon={faPhoneSquareAlt} />
+                            <p>(847) 361-5381</p>
+                        </div>
+                        <div>
+                            <FontAwesomeIcon icon={faGithub} />
+                            <a href='https://github.com/mpiech1813'>GitHub</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </HomePage>
         );
     }
 }
