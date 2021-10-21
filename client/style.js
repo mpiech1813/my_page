@@ -56,6 +56,10 @@ export const PBlock = styled.p`
     display: inline;
 `;
 
+export const SpaceDiv = styled.div`
+    width: 2rem;
+`;
+
 export default {
     Nav,
     MainLink,
@@ -65,4 +69,5 @@ export default {
     HomePage,
     ContentDiv,
     PBlock,
+    SpaceDiv,
 };

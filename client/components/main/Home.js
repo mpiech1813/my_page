@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import { Title, Break, HomePage, ContentDiv, PBlock } from '../../style';
+import { Title, SpaceDiv, HomePage, ContentDiv, PBlock } from '../../style';
 
 class Home extends Component {
     render() {
@@ -24,16 +24,25 @@ class Home extends Component {
                     <ContentDiv>
                         <div>
                             <FontAwesomeIcon icon={faLinkedin} />
-                            <a href='https://www.linkedin.com/in/kacperpiech/'>
+                            <PBlock> </PBlock>
+                            <a
+                                target='_blank'
+                                href='https://www.linkedin.com/in/kacperpiech/'
+                            >
                                 LinkedIn
                             </a>
                         </div>
+                        <SpaceDiv />
                         <div>
                             <FontAwesomeIcon icon={faEnvelope} />
+                            <PBlock> </PBlock>
                             <PBlock>maciejpiech18@gmail.com</PBlock>
                         </div>
+                        <SpaceDiv />
+
                         <div>
                             <FontAwesomeIcon icon={faLocationArrow} />
+                            <PBlock> </PBlock>
                             <PBlock>Greater Chicago Area</PBlock>
                         </div>
                     </ContentDiv>
@@ -49,9 +58,16 @@ class Home extends Component {
                             <FontAwesomeIcon icon={faPhoneSquareAlt} />
                             <PBlock>(847) 361-5381</PBlock>
                         </div>
+                        <SpaceDiv />
+
                         <div>
                             <FontAwesomeIcon icon={faGithub} />
-                            <a href='https://github.com/mpiech1813'>GitHub</a>
+                            <a
+                                target='_blank'
+                                href='https://github.com/mpiech1813'
+                            >
+                                GitHub
+                            </a>
                         </div>
                     </ContentDiv>
                 </div>
