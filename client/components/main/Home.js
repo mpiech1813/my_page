@@ -58,12 +58,13 @@ class Home extends Component {
                     <ContentDiv>
                         <div>
                             <FontAwesomeIcon icon={faPhoneSquareAlt} />
-                            <PBlock>(847) 361-5381</PBlock>
+                            <PBlock> (847) 361-5381</PBlock>
                         </div>
                         <SpaceDiv />
 
                         <div>
                             <FontAwesomeIcon icon={faGithub} />
+                            <PBlock> </PBlock>
                             <a
                                 target='_blank'
                                 href='https://github.com/mpiech1813'
