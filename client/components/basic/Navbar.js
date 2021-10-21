@@ -1,18 +1,16 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, MainLink, Br } from '../../style';
-// import useOnScreen from '../../util';
 
 const NavBar = () => {
     const ref = useRef();
-    // const isVisible = useOnScreen(ref);
 
     return (
         <Nav>
             <img src='/public/assets/logo.png' width='130px' alt='Logo' />
             <Link to='home' style={{ textDecoration: 'none' }}>
-                <MainLink>Home</MainLink>
-                {/* {isVisible ? <Br /> : <h1>notvisible</h1>} */}
+                <MainLink>Contact Me</MainLink>
+                <Br ref={ref} />
             </Link>
 
             <Link to='about' style={{ textDecoration: 'none' }}>
@@ -27,10 +25,10 @@ const NavBar = () => {
                 <MainLink>Achievements</MainLink>
                 <Br ref={ref} />
             </Link>
-            <Link to='contact' style={{ textDecoration: 'none' }}>
+            {/* <Link to='contact' style={{ textDecoration: 'none' }}>
                 <MainLink>Contact Me</MainLink>
                 <Br ref={ref} />
-            </Link>
+            </Link> */}
         </Nav>
     );
 };

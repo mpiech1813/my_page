@@ -7,7 +7,7 @@ class About extends Component {
         const dataArr = new Array(10).fill(faker.lorem.paragraphs());
         return (
             <div id='about'>
-                <Break />
+                {/* <Break /> */}
                 <Title>This is the About Me section</Title>
                 <div style={{ color: 'white' }}>
                     {dataArr.map((element, i) => {

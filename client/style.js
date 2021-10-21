@@ -1,11 +1,11 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const MainContainer = styled.div`
     flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 `;
 
 export const MainLink = styled.h1`
@@ -22,10 +22,12 @@ export const Nav = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
+    background-color: black;
+    height: 96.7vh;
 `;
 
 export const Title = styled.h1`
-    color: white;
+    // color: black;
 `;
 
 export const Break = styled.div`
@@ -39,10 +41,33 @@ export const Br = styled.hr`
     height: 0.2rem;
 `;
 
+export const HomePage = styled.div`
+    padding: 0px 0px 0px 1rem;
+    display: flex;
+    flex-direction: column;
+`;
+
+export const ContentDiv = styled.div`
+    display: flex;
+    justify-content: flex-start;
+`;
+
+export const PBlock = styled.p`
+    display: inline;
+`;
+
+export const SpaceDiv = styled.div`
+    width: 2rem;
+`;
+
 export default {
     Nav,
     MainLink,
     Title,
     MainContainer,
     Br,
+    HomePage,
+    ContentDiv,
+    PBlock,
+    SpaceDiv,
 };
