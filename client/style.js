@@ -30,8 +30,9 @@ export const Title = styled.h1`
     // color: black;
 `;
 
-export const Break = styled.div`
-    height: 120px;
+export const Break = styled.hr`
+    margin: 5rem 0px 5rem 0px;
+    height: 2px;
 `;
 
 export const Br = styled.hr`
