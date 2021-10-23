@@ -5,13 +5,20 @@ This is my personal portfolio website.
 ## Currently Working on:
 
 -   Projects page:
-    -- project 1
-    -- project 2
-    -- project 3
+    -- ~~project 1~~
+    -- ~~project 2~~
+    -- ~~project 3~~
     -- some layout
 
 ## Want to add:
 
+-   New Sections:
+    -- Contact me
+    -- About Me (Who am I?)
+    -- Skills
+    -- Projects
+    -- Education
+    -- Interests
 -   Scrolling animation on the sidebar <== working on this now
 -   Content
 -   Use material UI
