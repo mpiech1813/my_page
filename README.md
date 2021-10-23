@@ -4,9 +4,11 @@ This is my personal portfolio website.
 
 ## Currently Working on:
 
--   About me page
-    -- ~~Content~~
-    -- ~~Position~~
+-   Projects page:
+    -- project 1
+    -- project 2
+    -- project 3
+    -- some layout
 
 ## Want to add:
 
