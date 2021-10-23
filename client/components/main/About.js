@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import { Title, Break } from '../../style';
-import faker from 'faker';
 
 class About extends Component {
     render() {
-        const dataArr = new Array(10).fill(faker.lorem.paragraphs());
         return (
             <div id='about'>
-                {/* <Break /> */}
-                <Title>This is the About Me section</Title>
+                <Break />
+                <Title>About Me</Title>
                 <div>
                     <p>
                         My name is Kacper and I recently graduated from
