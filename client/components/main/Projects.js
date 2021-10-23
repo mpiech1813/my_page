@@ -1,57 +1,42 @@
 import React, { Component, useRef } from 'react';
 import { connect } from 'react-redux';
-import { Title, Break } from '../../style';
-import { loadComponent } from '../../redux/action';
-// import useIntersection from '../../util';
-import faker from 'faker';
+import { Title, Break, PBlock } from '../../style';
 
 class Projects extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            visible: false,
-        };
-    }
-
-    actionButton = () => {
-        this.props.loadComponent('Projects');
-    };
-
     render() {
-        // const ref = document.getElementById('projects');
-        // const inViewport = () => useIntersection(ref, '0px');
-        const dataArr = new Array(18).fill(faker.lorem.paragraphs());
-
-        // if (inViewport) {
-        //     console.log('in viewport');
-        // }
-
         return (
             <div id='projects'>
                 <Break />
                 <Title>This is Projects page</Title>
-                {/* <button onClick={() => this.actionButton()}>Check me</button> */}
-                <div style={{ color: 'green' }}>
-                    {dataArr.map((element, i) => {
-                        return <p key={i}>{element}</p>;
-                    })}
-                </div>
+                <h2>BOILERPLATE BUILDER (CAPSTONE PROJECT) | JULY 2021</h2>
+                <h3>Description: </h3>
+                <PBlock>Template creator for the PERN Stack</PBlock>
+                <h3>Contributions: </h3>
+                <PBlock>Backend, log in, Github OAuth, boilerplates</PBlock>
+                <h3>Technologies: </h3>
+                <PBlock>
+                    Node.js | PostgreSQL | Sequelize | React.js | React-Redux |
+                    GitHub API | EJS | Web Sockets | JWT
+                </PBlock>
+                <br />
+                <h2>NOTE-YT (PERSONAL PROJECT) | MAY 2021</h2>
+                <h3>Description: </h3>
+                <PBlock>
+                    Firefox extension for taking notes on YouTube videos
+                </PBlock>
+                <h3>Technology: </h3>
+                <PBlock>Firefox browser engine</PBlock>
+
+                <h2>HOW-THE-TURNTABLES (GROUP PROJECT) | MAY 2021</h2>
+                <h3>Description: </h3>
+                <PBlock>E-commerce store for bootleg records</PBlock>
+                <h3>Contributions: </h3>
+                <PBlock>Log-in, backend, artist’s view</PBlock>
+                <h3>Technologies: </h3>
+                <PBlock>Node.js, Sequelize, React.js, Stripe API</PBlock>
             </div>
         );
     }
 }
 
-const mapStateToProps = (state) => {
-    return {
-        visible: state.projects,
-    };
-};
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        loadComponent: () => console.log('Found me'),
-        // loadComponent: (name) => dispatch(loadComponent(name)),
-    };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(Projects);
+export default Projects;
