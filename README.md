@@ -6,7 +6,7 @@ This is my personal portfolio website.
 
 -   About me page
     -- ~~Content~~
-    -- Position
+    -- ~~Position~~
 
 ## Want to add:
 
