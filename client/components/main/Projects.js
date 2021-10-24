@@ -21,14 +21,15 @@ class Projects extends Component {
                     <li>
                         <h3>Contributions: </h3>
                         <PBlock>
-                            Backend, log in, Github OAuth, boilerplates
+                            Back End, log in, Github OAuth, boilerplates
                         </PBlock>
                     </li>
                     <li>
                         <h3>Technologies: </h3>
                         <PBlock>
-                            Node.js | PostgreSQL | Sequelize | React.js |
-                            React-Redux | GitHub API | EJS | Web Sockets | JWT
+                            Node.js | Express | PostgreSQL | Sequelize |
+                            React.js | React-Redux | GitHub API | EJS | Web
+                            Sockets | JWT | Jest | MaterialUI | Styled
                         </PBlock>
                     </li>
                 </ul>
@@ -57,12 +58,24 @@ class Projects extends Component {
                 <HypLink target='_blank' href='http://howtheturntables.com/#/'>
                     HOW-THE-TURNTABLES (GROUP PROJECT) | MAY 2021
                 </HypLink>
-                <h3>Description: </h3>
-                <PBlock>E-commerce store for bootleg records</PBlock>
-                <h3>Contributions: </h3>
-                <PBlock>Log-in, backend, artist’s view</PBlock>
-                <h3>Technologies: </h3>
-                <PBlock>Node.js, Sequelize, React.js, Stripe API</PBlock>
+                <ul>
+                    <li>
+                        <h3>Description: </h3>
+                        <PBlock>E-commerce store for bootleg records</PBlock>
+                    </li>
+                    <li>
+                        <h3>Contributions: </h3>
+                        <PBlock>Log-in, backend, artist’s view</PBlock>
+                    </li>
+                    <li>
+                        <h3>Technologies: </h3>
+                        <PBlock>
+                            Node.js | Express | PostgreSQL | Sequelize |
+                            React.js | React-Redux | React Hooks | Stripe API |
+                            Jest | MaterialUI | Styled | Faker
+                        </PBlock>
+                    </li>
+                </ul>
             </div>
         );
     }
