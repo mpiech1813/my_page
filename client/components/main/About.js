@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Title, Break } from '../../style';
+import { Break } from '../../style';
 
 class About extends Component {
     render() {
         return (
             <div id='about'>
                 <Break />
-                <Title>About Me</Title>
+                <h1>About Me</h1>
                 <div>
                     <p>
                         My name is Kacper and I recently graduated from
