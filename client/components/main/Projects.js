@@ -1,39 +1,81 @@
-import React, { Component, useRef } from 'react';
-import { connect } from 'react-redux';
-import { Title, Break, PBlock } from '../../style';
+import React, { Component } from 'react';
+import StyCom, { PBlock, HypLink } from '../../style';
 
 class Projects extends Component {
     render() {
         return (
             <div id='projects'>
-                <Break />
-                <Title>This is Projects page</Title>
-                <h2>BOILERPLATE BUILDER (CAPSTONE PROJECT) | JULY 2021</h2>
-                <h3>Description: </h3>
-                <PBlock>Template creator for the PERN Stack</PBlock>
-                <h3>Contributions: </h3>
-                <PBlock>Backend, log in, Github OAuth, boilerplates</PBlock>
-                <h3>Technologies: </h3>
-                <PBlock>
-                    Node.js | PostgreSQL | Sequelize | React.js | React-Redux |
-                    GitHub API | EJS | Web Sockets | JWT
-                </PBlock>
+                <StyCom.Break />
+                <StyCom.Title>This is Projects page</StyCom.Title>
+                <HypLink
+                    target='_blank'
+                    href='https://boiler-plate-creator.herokuapp.com/#/'
+                >
+                    BOILERPLATE BUILDER (CAPSTONE PROJECT) | JULY 2021
+                </HypLink>
+                <ul>
+                    <li>
+                        <h3>Description: </h3>
+                        <PBlock>Template creator for the PERN Stack</PBlock>
+                    </li>
+                    <li>
+                        <h3>Contributions: </h3>
+                        <PBlock>
+                            Back End, log in, Github OAuth, boilerplates
+                        </PBlock>
+                    </li>
+                    <li>
+                        <h3>Technologies: </h3>
+                        <PBlock>
+                            Node.js | Express | PostgreSQL | Sequelize |
+                            React.js | React-Redux | GitHub API | EJS | Web
+                            Sockets | JWT | Jest | MaterialUI | Styled
+                        </PBlock>
+                    </li>
+                </ul>
                 <br />
-                <h2>NOTE-YT (PERSONAL PROJECT) | MAY 2021</h2>
-                <h3>Description: </h3>
-                <PBlock>
-                    Firefox extension for taking notes on YouTube videos
-                </PBlock>
-                <h3>Technology: </h3>
-                <PBlock>Firefox browser engine</PBlock>
+                <HypLink
+                    target='_blank'
+                    href='https://github.com/mpiech1813/note-yt'
+                >
+                    NOTE-YT (PERSONAL PROJECT) | MAY 2021
+                </HypLink>
 
-                <h2>HOW-THE-TURNTABLES (GROUP PROJECT) | MAY 2021</h2>
-                <h3>Description: </h3>
-                <PBlock>E-commerce store for bootleg records</PBlock>
-                <h3>Contributions: </h3>
-                <PBlock>Log-in, backend, artist’s view</PBlock>
-                <h3>Technologies: </h3>
-                <PBlock>Node.js, Sequelize, React.js, Stripe API</PBlock>
+                <ul>
+                    <li>
+                        <h3>Description: </h3>
+                        <PBlock>
+                            Firefox extension for taking notes on YouTube videos
+                        </PBlock>
+                    </li>
+                    <li>
+                        <h3>Technology: </h3>
+                        <PBlock>Firefox browser engine</PBlock>
+                    </li>
+                </ul>
+                <br />
+
+                <HypLink target='_blank' href='http://howtheturntables.com/#/'>
+                    HOW-THE-TURNTABLES (GROUP PROJECT) | MAY 2021
+                </HypLink>
+                <ul>
+                    <li>
+                        <h3>Description: </h3>
+                        <PBlock>E-commerce store for bootleg records</PBlock>
+                    </li>
+                    <li>
+                        <h3>Contributions: </h3>
+                        <PBlock>Log-in, backend, artist’s view</PBlock>
+                    </li>
+                    <li>
+                        <h3>Technologies: </h3>
+                        <PBlock>
+                            Node.js | Express | PostgreSQL | Sequelize |
+                            React.js | React-Redux | React Hooks | Stripe API |
+                            Jest | MaterialUI | Styled | Faker
+                        </PBlock>
+                    </li>
+                </ul>
             </div>
         );
     }
