@@ -14,7 +14,7 @@ This is my personal portfolio website.
 ## Want to add:
 
 -   New Sections:
-    -- Contact me
+    -- ~~Contact me~~
     -- About Me (Who am I?)
     -- Skills
     -- Projects

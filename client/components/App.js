@@ -7,7 +7,7 @@ import Footer from './basic/Footer';
 import NavBar from './basic/Navbar';
 import About from './main/About';
 import Home from './main/Home';
-import Contact from './main/Contact';
+import Work from './main/Work';
 import Projects from './main/Projects';
 import Education from './main/Education';
 
@@ -28,8 +28,8 @@ class App extends Component {
                         <Home />
                         <About />
                         <Projects />
+                        <Work />
                         <Education />
-                        <Contact />
                     </MainContainer>
                 </div>
                 <Footer />
