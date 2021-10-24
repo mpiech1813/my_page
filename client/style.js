@@ -65,7 +65,7 @@ export const HypLink = styled.a`
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
-    color: blue;
+    color: #04b800;
 `;
 
 export const StyCom = {
