@@ -1,19 +1,36 @@
 import React, { Component } from 'react';
-import { Title, Break } from '../../style';
-import faker from 'faker';
+import StyCom, { Title } from '../../style';
 
 class Work extends Component {
     render() {
-        const dataArr = new Array(10).fill(faker.lorem.paragraphs());
         return (
             <div id='contact'>
-                <Break />
-                <Title>This is the Work Experience Section</Title>
-                <div style={{ color: 'yellow' }}>
-                    {dataArr.map((element, i) => {
-                        return <p key={i}>{element}</p>;
-                    })}
-                </div>
+                <StyCom.Break />
+                <h1>Work Experience</h1>
+                <Title>
+                    SENIOR DESIGN ENGINEER | <strong>LCP 360</strong>
+                </Title>
+                <h3>October 2014 — Present</h3>
+                <ul>
+                    <li>
+                        Create and publish 40+ virtual tours of clients a week
+                        on their Streetview business listings and websites
+                    </li>
+                    <li>
+                        Manage 2 customer support team members and resolve
+                        escalated technical problems
+                    </li>
+                </ul>
+                <Title>
+                    KRAV MAGA INSTRUCTOR | <strong>KRAV MAGA ILLINOIS</strong>
+                </Title>
+                <h3>September 2018 — Present</h3>
+                <ul>
+                    <li>
+                        Teach classes for up to 30 students on personal
+                        hand-to-hand defense
+                    </li>
+                </ul>
             </div>
         );
     }
