@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Break } from '../../style';
+import StyCom, { Break } from '../../style';
 
 class About extends Component {
     render() {
         return (
-            <div id='about'>
+            <StyCom.HomePage id='about'>
                 <Break />
                 <h1>About Me</h1>
                 <div>
@@ -37,7 +37,7 @@ class About extends Component {
                         passion are the same place.
                     </p>
                 </div>
-            </div>
+            </StyCom.HomePage>
         );
     }
 }

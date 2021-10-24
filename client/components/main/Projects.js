@@ -4,7 +4,7 @@ import StyCom, { PBlock, HypLink } from '../../style';
 class Projects extends Component {
     render() {
         return (
-            <div id='projects'>
+            <StyCom.HomePage id='projects'>
                 <StyCom.Break />
                 <h1>Projects</h1>
                 <HypLink
@@ -76,7 +76,7 @@ class Projects extends Component {
                         </PBlock>
                     </li>
                 </ul>
-            </div>
+            </StyCom.HomePage>
         );
     }
 }

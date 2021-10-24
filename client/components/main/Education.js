@@ -4,7 +4,7 @@ import StyCom, { Title } from '../../style';
 class Education extends Component {
     render() {
         return (
-            <div id='achievements'>
+            <StyCom.HomePage id='achievements'>
                 <StyCom.Break />
                 <h1>Education</h1>
                 <Title>
@@ -25,7 +25,7 @@ class Education extends Component {
                 <ul>
                     <li>Major: Forensic Science | Minor: Chemistry</li>
                 </ul>
-            </div>
+            </StyCom.HomePage>
         );
     }
 }
