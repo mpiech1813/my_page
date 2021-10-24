@@ -8,7 +8,8 @@ This is my personal portfolio website.
     -- ~~project 1~~
     -- ~~project 2~~
     -- ~~project 3~~
-    -- some layout
+    -- add hyper links
+    -- some layout: try to centre everything
 
 ## Want to add:
 
