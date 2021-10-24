@@ -14,7 +14,7 @@ class Home extends Component {
         return (
             <StyCom.HomePage>
                 {/* <StyCom.Break /> */}
-                <StyCom.Title>Kacper Piech</StyCom.Title>
+                <h1>Kacper Piech</h1>
                 {/* <div style={{ color: 'blue' }}>
                     {dataArr.map((element, i) => {
                         return <p key={i}>{element}</p>;

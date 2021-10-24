@@ -9,12 +9,12 @@ import About from './main/About';
 import Home from './main/Home';
 import Contact from './main/Contact';
 import Projects from './main/Projects';
-import Achievements from './main/Diplomas';
+import Education from './main/Education';
 
 class App extends Component {
     render() {
         return (
-            <div>
+            <div style={{ backgroundColor: '#bfbfbf' }}>
                 <div
                     style={{
                         display: 'flex',
@@ -28,7 +28,7 @@ class App extends Component {
                         <Home />
                         <About />
                         <Projects />
-                        <Achievements />
+                        <Education />
                         <Contact />
                     </MainContainer>
                 </div>

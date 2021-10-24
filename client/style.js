@@ -26,9 +26,13 @@ export const Nav = styled.div`
     height: 96.7vh;
 `;
 
-export const Title = styled.h1`
-    // color: black;
+export const Title = styled.h3`
+    font-weight: bold;
+    color: #04b800;
 `;
+// export const Title2 = styled.h2`
+
+// `;
 
 export const Break = styled.hr`
     margin: 5rem 0px 5rem 0px;
@@ -63,8 +67,8 @@ export const SpaceDiv = styled.div`
 
 export const HypLink = styled.a`
     font-size: 1rem;
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bold;
     color: #04b800;
 `;
 

@@ -8,7 +8,7 @@ This is my personal portfolio website.
     -- ~~project 1~~
     -- ~~project 2~~
     -- ~~project 3~~
-    -- add hyper links
+    -- ~~add hyper links~~
     -- some layout: try to centre everything
 
 ## Want to add:
@@ -18,6 +18,7 @@ This is my personal portfolio website.
     -- About Me (Who am I?)
     -- Skills
     -- Projects
+    -- Work Experience
     -- Education
     -- Interests
 -   Scrolling animation on the sidebar <== working on this now

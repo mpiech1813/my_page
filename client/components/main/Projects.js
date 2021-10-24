@@ -6,7 +6,7 @@ class Projects extends Component {
         return (
             <div id='projects'>
                 <StyCom.Break />
-                <StyCom.Title>This is Projects page</StyCom.Title>
+                <h1>Projects</h1>
                 <HypLink
                     target='_blank'
                     href='https://boiler-plate-creator.herokuapp.com/#/'
