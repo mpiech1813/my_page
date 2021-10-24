@@ -61,7 +61,12 @@ export const SpaceDiv = styled.div`
     width: 2rem;
 `;
 
-export const HypLink = styled.a``;
+export const HypLink = styled.a`
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+`;
 
 export const StyCom = {
     Nav,
@@ -74,6 +79,7 @@ export const StyCom = {
     PBlock,
     SpaceDiv,
     Break,
+    HypLink,
 };
 
 export default StyCom;
