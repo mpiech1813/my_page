@@ -21,14 +21,14 @@ const NavBar = () => {
                 <MainLink>Projects</MainLink>
                 <Br ref={ref} />
             </Link>
-            <Link to='achievements' style={{ textDecoration: 'none' }}>
-                <MainLink>Achievements</MainLink>
+            <Link to='contact' style={{ textDecoration: 'none' }}>
+                <MainLink>Work Experience</MainLink>
                 <Br ref={ref} />
             </Link>
-            {/* <Link to='contact' style={{ textDecoration: 'none' }}>
-                <MainLink>Contact Me</MainLink>
+            <Link to='achievements' style={{ textDecoration: 'none' }}>
+                <MainLink>Education</MainLink>
                 <Br ref={ref} />
-            </Link> */}
+            </Link>
         </Nav>
     );
 };
