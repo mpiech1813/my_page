@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Title, Break } from '../../style';
+import StyCom, { Title, Break } from '../../style';
 import faker from 'faker';
 
 class Diplomas extends Component {

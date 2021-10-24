@@ -1,5 +1,5 @@
-import React, { Component, useRef } from 'react';
-import { StyCom } from '../../style';
+import React, { Component } from 'react';
+import StyCom from '../../style';
 
 class Projects extends Component {
     render() {
