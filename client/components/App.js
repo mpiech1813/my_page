@@ -9,7 +9,7 @@ import About from './main/About';
 import Home from './main/Home';
 import Contact from './main/Contact';
 import Projects from './main/Projects';
-import Achievements from './main/Diplomas';
+import Education from './main/Education';
 
 class App extends Component {
     render() {
@@ -28,7 +28,7 @@ class App extends Component {
                         <Home />
                         <About />
                         <Projects />
-                        <Achievements />
+                        <Education />
                         <Contact />
                     </MainContainer>
                 </div>
