@@ -14,7 +14,7 @@ import Education from './main/Education';
 class App extends Component {
     render() {
         return (
-            <div>
+            <div style={{ backgroundColor: '#bfbfbf' }}>
                 <div
                     style={{
                         display: 'flex',
