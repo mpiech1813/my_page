@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import StyCom from '../../style';
+import StyCom, { PBlock } from '../../style';
 
 class Home extends Component {
     render() {
@@ -24,7 +24,7 @@ class Home extends Component {
                     <StyCom.ContentDiv>
                         <div>
                             <FontAwesomeIcon icon={faLinkedin} />
-                            <StyCom.PBlock> </StyCom.PBlock>
+                            <PBlock> </PBlock>
                             <a
                                 target='_blank'
                                 href='https://www.linkedin.com/in/kacperpiech/'
@@ -35,7 +35,7 @@ class Home extends Component {
                         <StyCom.SpaceDiv />
                         <div>
                             <FontAwesomeIcon icon={faEnvelope} />
-                            <StyCom.PBlock> </StyCom.PBlock>
+                            <PBlock> </PBlock>
                             <a href='mailto: maciejpiech18@gmail.com'>
                                 maciejpiech18@gmail.com
                             </a>
@@ -44,8 +44,8 @@ class Home extends Component {
 
                         <div>
                             <FontAwesomeIcon icon={faLocationArrow} />
-                            <StyCom.PBlock> </StyCom.PBlock>
-                            <StyCom.PBlock>Greater Chicago Area</StyCom.PBlock>
+                            <PBlock> </PBlock>
+                            <PBlock>Greater Chicago Area</PBlock>
                         </div>
                     </StyCom.ContentDiv>
                     <hr
@@ -58,13 +58,13 @@ class Home extends Component {
                     <StyCom.ContentDiv>
                         <div>
                             <FontAwesomeIcon icon={faPhoneSquareAlt} />
-                            <StyCom.PBlock> (847) 361-5381</StyCom.PBlock>
+                            <PBlock> (847) 361-5381</PBlock>
                         </div>
                         <StyCom.SpaceDiv />
 
                         <div>
                             <FontAwesomeIcon icon={faGithub} />
-                            <StyCom.PBlock> </StyCom.PBlock>
+                            <PBlock> </PBlock>
                             <a
                                 target='_blank'
                                 href='https://github.com/mpiech1813'
