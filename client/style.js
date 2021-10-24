@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainContainer = styled.div`
+const MainContainer = styled.div`
     flex: 3;
     display: flex;
     flex-direction: column;
@@ -8,14 +8,14 @@ export const MainContainer = styled.div`
     align-items: left;
 `;
 
-export const MainLink = styled.h1`
+const MainLink = styled.h1`
     text-decoration: none;
     font-size: 1.5rem;
     color: #04b800;
     font-weight: bold;
     margin-bottom: 0px;
 `;
-export const Nav = styled.div`
+const Nav = styled.div`
     flex: 0 0 100px;
     display: flex;
     flex-direction: column;
@@ -26,42 +26,42 @@ export const Nav = styled.div`
     height: 96.7vh;
 `;
 
-export const Title = styled.h1`
+const Title = styled.h1`
     // color: black;
 `;
 
-export const Break = styled.hr`
+const Break = styled.hr`
     margin: 5rem 0px 5rem 0px;
     height: 2px;
 `;
 
-export const Br = styled.hr`
+const Br = styled.hr`
     width: 100%;
     color: #f8f8f8;
     background-color: #f8f8f8;
     height: 0.2rem;
 `;
 
-export const HomePage = styled.div`
+const HomePage = styled.div`
     padding: 0px 0px 0px 1rem;
     display: flex;
     flex-direction: column;
 `;
 
-export const ContentDiv = styled.div`
+const ContentDiv = styled.div`
     display: flex;
     justify-content: flex-start;
 `;
 
-export const PBlock = styled.p`
+const PBlock = styled.p`
     display: inline;
 `;
 
-export const SpaceDiv = styled.div`
+const SpaceDiv = styled.div`
     width: 2rem;
 `;
 
-export default {
+const StyCom = {
     Nav,
     MainLink,
     Title,
@@ -72,3 +72,5 @@ export default {
     PBlock,
     SpaceDiv,
 };
+
+export default StyCom;
