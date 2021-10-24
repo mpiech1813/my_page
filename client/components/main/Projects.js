@@ -39,12 +39,21 @@ class Projects extends Component {
                 >
                     NOTE-YT (PERSONAL PROJECT) | MAY 2021
                 </HypLink>
-                <h3>Description: </h3>
-                <PBlock>
-                    Firefox extension for taking notes on YouTube videos
-                </PBlock>
-                <h3>Technology: </h3>
-                <PBlock>Firefox browser engine</PBlock>
+
+                <ul>
+                    <li>
+                        <h3>Description: </h3>
+                        <PBlock>
+                            Firefox extension for taking notes on YouTube videos
+                        </PBlock>
+                    </li>
+                    <li>
+                        <h3>Technology: </h3>
+                        <PBlock>Firefox browser engine</PBlock>
+                    </li>
+                </ul>
+                <br />
+
                 <HypLink target='_blank' href='http://howtheturntables.com/#/'>
                     HOW-THE-TURNTABLES (GROUP PROJECT) | MAY 2021
                 </HypLink>
