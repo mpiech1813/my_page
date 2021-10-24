@@ -1,39 +1,46 @@
 import React, { Component, useRef } from 'react';
-import { connect } from 'react-redux';
-import { Title, Break, PBlock } from '../../style';
+import { StyCom } from '../../style';
 
 class Projects extends Component {
     render() {
         return (
             <div id='projects'>
-                <Break />
-                <Title>This is Projects page</Title>
+                <StyCom.Break />
+                <StyCom.Title>This is Projects page</StyCom.Title>
                 <h2>BOILERPLATE BUILDER (CAPSTONE PROJECT) | JULY 2021</h2>
                 <h3>Description: </h3>
-                <PBlock>Template creator for the PERN Stack</PBlock>
+                <StyCom.PBlock>
+                    Template creator for the PERN Stack
+                </StyCom.PBlock>
                 <h3>Contributions: </h3>
-                <PBlock>Backend, log in, Github OAuth, boilerplates</PBlock>
+                <StyCom.PBlock>
+                    Backend, log in, Github OAuth, boilerplates
+                </StyCom.PBlock>
                 <h3>Technologies: </h3>
-                <PBlock>
+                <StyCom.PBlock>
                     Node.js | PostgreSQL | Sequelize | React.js | React-Redux |
                     GitHub API | EJS | Web Sockets | JWT
-                </PBlock>
+                </StyCom.PBlock>
                 <br />
                 <h2>NOTE-YT (PERSONAL PROJECT) | MAY 2021</h2>
                 <h3>Description: </h3>
-                <PBlock>
+                <StyCom.PBlock>
                     Firefox extension for taking notes on YouTube videos
-                </PBlock>
+                </StyCom.PBlock>
                 <h3>Technology: </h3>
-                <PBlock>Firefox browser engine</PBlock>
+                <StyCom.PBlock>Firefox browser engine</StyCom.PBlock>
 
                 <h2>HOW-THE-TURNTABLES (GROUP PROJECT) | MAY 2021</h2>
                 <h3>Description: </h3>
-                <PBlock>E-commerce store for bootleg records</PBlock>
+                <StyCom.PBlock>
+                    E-commerce store for bootleg records
+                </StyCom.PBlock>
                 <h3>Contributions: </h3>
-                <PBlock>Log-in, backend, artist’s view</PBlock>
+                <StyCom.PBlock>Log-in, backend, artist’s view</StyCom.PBlock>
                 <h3>Technologies: </h3>
-                <PBlock>Node.js, Sequelize, React.js, Stripe API</PBlock>
+                <StyCom.PBlock>
+                    Node.js, Sequelize, React.js, Stripe API
+                </StyCom.PBlock>
             </div>
         );
     }

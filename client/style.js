@@ -61,6 +61,8 @@ const SpaceDiv = styled.div`
     width: 2rem;
 `;
 
+const HypLink = styled.a``;
+
 const StyCom = {
     Nav,
     MainLink,
