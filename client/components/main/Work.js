@@ -4,7 +4,7 @@ import StyCom, { Title } from '../../style';
 class Work extends Component {
     render() {
         return (
-            <div id='contact'>
+            <StyCom.HomePage id='contact'>
                 <StyCom.Break />
                 <h1>Work Experience</h1>
                 <Title>
@@ -31,7 +31,7 @@ class Work extends Component {
                         hand-to-hand defense
                     </li>
                 </ul>
-            </div>
+            </StyCom.HomePage>
         );
     }
 }
