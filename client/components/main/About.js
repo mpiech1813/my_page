@@ -31,13 +31,12 @@ class About extends Component {
                             a self-defense instructor.
                         </p>
                         <p>
-                            I’ve learned so much in these past 7 months and I’m
-                            now looking for a place where I can reach my
-                            potential and continue to grow as a developer. If
-                            I’m able to achieve this much with all the stuff on
-                            my plate, I know I can bring value and deliver
-                            quality work when my work and passion are the same
-                            place.
+                            I’ve learned so much during that time and now I’m
+                            looking for a place where I can continue to grow as
+                            a developer and reach my full potential. If I'm able
+                            to achieve this much with all the stuff on my plate,
+                            I know I can bring value and deliver quality work
+                            when my work and passion are the same place.
                         </p>
                     </div>
                 </StyCom.HomePage>
