@@ -18,10 +18,8 @@ class Work extends Component {
                             week on their Streetview business listings and
                             websites
                         </li>
-                        <li>
-                            Manage 2 customer support team members and resolve
-                            escalated technical problems
-                        </li>
+                        <li>Resolve escalated technical problems</li>
+                        <li>Manage 2 customer support team members</li>
                     </ul>
                     <Title>
                         KRAV MAGA INSTRUCTOR |{' '}
