@@ -26,7 +26,7 @@ class Projects extends Component {
                             </PBlock>
                         </li>
                         <li>
-                            <h3>Technologies: </h3>
+                            <h3>Technologies Used: </h3>
                             <PBlock>
                                 Node.js | Express | PostgreSQL | Sequelize |
                                 React.js | React-Redux | GitHub API | EJS | Web
@@ -51,7 +51,7 @@ class Projects extends Component {
                             </PBlock>
                         </li>
                         <li>
-                            <h3>Technology: </h3>
+                            <h3>Technology Used: </h3>
                             <PBlock>Firefox browser engine</PBlock>
                         </li>
                     </ul>
@@ -75,7 +75,7 @@ class Projects extends Component {
                             <PBlock>Log-in, backend, artist’s view</PBlock>
                         </li>
                         <li>
-                            <h3>Technologies: </h3>
+                            <h3>Technologies Used: </h3>
                             <PBlock>
                                 Node.js | Express | PostgreSQL | Sequelize |
                                 React.js | React-Redux | React Hooks | Stripe
