@@ -72,6 +72,7 @@ class Home extends Component {
                                 GitHub
                             </a>
                         </div>
+                        <p> </p>
                     </StyCom.ContentDiv>
                 </div>
             </StyCom.HomePage>

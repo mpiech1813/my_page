@@ -30,13 +30,12 @@ export const Title = styled.h3`
     font-weight: bold;
     color: #04b800;
 `;
-// export const Title2 = styled.h2`
-
-// `;
 
 export const Break = styled.hr`
-    margin: 5rem 0px 5rem 0px;
+    // margin: 3rem 0px 3rem 0px;
     height: 2px;
+    width: 99%;
+    // border: 1px solid blue;
 `;
 
 export const Br = styled.hr`
@@ -44,12 +43,14 @@ export const Br = styled.hr`
     color: #f8f8f8;
     background-color: #f8f8f8;
     height: 0.2rem;
+    border: 1px solid blue;
 `;
 
 export const HomePage = styled.div`
     padding: 0px 0px 0px 1rem;
     display: flex;
     flex-direction: column;
+    // border: 1px solid red;
 `;
 
 export const ContentDiv = styled.div`
