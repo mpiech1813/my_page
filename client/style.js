@@ -67,10 +67,12 @@ export const SpaceDiv = styled.div`
 `;
 
 export const HypLink = styled.a`
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
     color: #04b800;
+    margin-top: 1rem;
+    // border: 1px solid red;
 `;
 
 export const StyCom = {
