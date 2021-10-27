@@ -9,7 +9,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import StyCom, { PBlock } from '../../style';
 
-class Home extends Component {
+class Contact extends Component {
     render() {
         return (
             <StyCom.HomePage>
@@ -72,6 +72,7 @@ class Home extends Component {
                                 GitHub
                             </a>
                         </div>
+                        <p> </p>
                     </StyCom.ContentDiv>
                 </div>
             </StyCom.HomePage>
@@ -79,4 +80,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Contact;
