@@ -35,7 +35,7 @@ export const Break = styled.hr`
     // margin: 3rem 0px 3rem 0px;
     height: 2px;
     width: 99%;
-    // border: 1px solid blue;
+    border: 1px solid blue;
 `;
 
 export const Br = styled.hr`
