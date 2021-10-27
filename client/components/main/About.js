@@ -10,24 +10,25 @@ class About extends Component {
                     <h1>About Me</h1>
                     <div>
                         <p>
-                            My name is Kacper and I recently graduated from
-                            FullStack Academy, which is an online bootcamp. My
-                            bachelor from Loyola University Chicago is in
-                            Forensic Science, but I currently work as a senior
-                            design engineer at a digital media company.
+                            Hi, my name is Kacper and I recently graduated from
+                            FullStack Academy. I have a bachelor from Loyola
+                            University Chicago in Forensic Science, but I
+                            currently work as a senior design engineer at a
+                            digital media company.
                         </p>
                         <p>
                             I’ve always been interested in coding and working in
                             the tech industry and my current company was a great
-                            stepping stone. And over the years, I got really
-                            good at what I do and started wearing many hats in
-                            the company from publishing virtual tours to
-                            providing customer support that it wasn’t until the
-                            pandemic hit that I really had a time to reflect and
-                            think about what I really want to do in the future.
-                            I took a risk and enrolled myself in the bootcamp
-                            while working full time at my current company and
-                            working part time as a self-defense instructor.
+                            stepping stone. Over the years, I got really good at
+                            what I do and started wearing many hats in the
+                            company: from creating, editing and publishing
+                            virtual tours, answering escalated internal tickets
+                            and providing customer support. When the pandemic
+                            hit, I had time to reflect and think about what I
+                            really want to do in the future. I took a risk and
+                            enrolled myself in the bootcamp while working full
+                            time at my current company and working part time as
+                            a self-defense instructor.
                         </p>
                         <p>
                             I’ve learned so much in these past 7 months and I’m
