@@ -7,7 +7,7 @@ const NavBar = () => {
 
     return (
         <Nav>
-            <img src='/public/assets/logo.png' width='130px' alt='Logo' />
+            <img src='/public/assets/logo2.png' width='130px' alt='Logo' />
             <Link to='home' style={{ textDecoration: 'none' }}>
                 <MainLink>Contact Me</MainLink>
                 <Br ref={ref} />
