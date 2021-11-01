@@ -10,11 +10,15 @@ class About extends Component {
                     <h1>About Me</h1>
                     <div>
                         <p>
-                            Hi, my name is Kacper and I recently graduated from
-                            FullStack Academy. I have a bachelor from Loyola
-                            University Chicago in Forensic Science, but I
-                            currently work as a senior design engineer at a
-                            digital media company.
+                            Hi, my name is Kacper and I am a full stack
+                            developer. I have a bachelor from Loyola University
+                            Chicago in Forensic Science, I have completed a PERN
+                            stack course at Fullstack Academy. Currently I am
+                            working as a senior design engineer at a digital
+                            media company, freelance full stack contractor and
+                            part time self-defence instructor. I am also
+                            involved in a couple personal projects as well as
+                            tutoring bootcamp students.
                         </p>
                         <p>
                             I’ve always been interested in coding and working in
