@@ -14,7 +14,7 @@ import Education from './main/Education';
 class App extends Component {
     render() {
         return (
-            <div style={{ backgroundColor: '#bfbfbf' }}>
+            <div>
                 <div
                     style={{
                         display: 'flex',
@@ -32,7 +32,7 @@ class App extends Component {
                         <Education />
                     </MainContainer>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }
