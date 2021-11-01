@@ -11,18 +11,15 @@ class Education extends Component {
                     <Title>
                         FULLSTACK DEVELOPER | <strong>FULLSTACK ACADEMY</strong>
                     </Title>
-                    <h3>January 2021 — July 2021</h3>
+                    {/* <h3>January 2021 — July 2021</h3> */}
                     <ul>
-                        <li>
-                            553 hours of rigorous software engineering bootcamp
-                            based on group projects and peer programming
-                        </li>
+                        <li>Full stack (PERN) software developer course</li>
                     </ul>
                     <br />
                     <Title>
                         BACHELOR OF SCIENCE | <strong>LOYOLA UNIVERSITY</strong>
                     </Title>
-                    <h3>2009 - 2013</h3>
+                    {/* <h3>2009 - 2013</h3> */}
                     <ul>
                         <li>Major: Forensic Science | Minor: Chemistry</li>
                     </ul>
