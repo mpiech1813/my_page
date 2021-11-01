@@ -32,7 +32,7 @@ class App extends Component {
                         <Education />
                     </MainContainer>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }
