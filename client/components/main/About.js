@@ -12,13 +12,12 @@ class About extends Component {
                         <p>
                             Hi, my name is Kacper and I am a full stack
                             developer. I have a bachelor from Loyola University
-                            Chicago in Forensic Science, I have completed a PERN
-                            stack course at Fullstack Academy. Currently I am
-                            working as a senior design engineer at a digital
-                            media company, freelance full stack contractor and
-                            part time self-defence instructor. I am also
-                            involved in a couple personal projects as well as
-                            tutoring bootcamp students.
+                            Chicago in Forensic Science, and I've completed a
+                            PERN stack course at Fullstack Academy. Currently, I
+                            work as a senior design engineer at a digital media
+                            company while freelancing as a full stack
+                            contractor. I am working on a couple of personal
+                            projects on top of tutoring bootcamp students.
                         </p>
                         <p>
                             I’ve always been interested in coding and working in
