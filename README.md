@@ -4,8 +4,6 @@ This is my personal portfolio website.
 
 ## Currently Working on:
 
-    -- Going to try to use React.Fragment
-
 ## Want to add:
 
 -   More info about side projects
@@ -47,3 +45,4 @@ This is my personal portfolio website.
     -- ~~Content~~
 
     -- ~~Fix the link bug~~
+    -- ~~Going to try to use React.Fragment~~
