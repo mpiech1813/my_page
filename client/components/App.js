@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component, Fragment } from 'react';
 import StickyBox from 'react-sticky-box';
 
 import { MainContainer } from '../style';
-import Footer from './basic/Footer';
+// import Footer from './basic/Footer';
 import NavBar from './basic/Navbar';
 import About from './main/About';
 import Contact from './main/Contact';
@@ -25,11 +24,13 @@ class App extends Component {
                         <NavBar />
                     </StickyBox>
                     <MainContainer>
-                        <Contact />
-                        <About />
-                        <Projects />
-                        <Work />
-                        <Education />
+                        <Fragment>
+                            <Contact />
+                            <About />
+                            <Projects />
+                            <Work />
+                            <Education />
+                        </Fragment>
                     </MainContainer>
                 </div>
                 {/* <Footer /> */}
