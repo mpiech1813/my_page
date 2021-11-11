@@ -4,15 +4,14 @@ This is my personal portfolio website.
 
 ## Currently Working on:
 
-    -- Fix the link bug
+-   More info about side projects
+-   More info about freelance
 
 ## Want to add:
 
--   More info about side projects
--   More info about freelance
 -   Interests
+-   Use material UI ??
 -   Scrolling animation on the sidebar <== working on this now
--   Use material UI
 
 ## For future:
 
@@ -45,3 +44,6 @@ This is my personal portfolio website.
     -- ~~Work Experience~~
     -- ~~Education~~
     -- ~~Content~~
+
+    -- ~~Fix the link bug~~
+    -- ~~Going to try to use React.Fragment~~
