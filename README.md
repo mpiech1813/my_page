@@ -5,7 +5,6 @@ This is my personal portfolio website.
 ## Currently Working on:
 
     -- Going to try to use React.Fragment
-    -- Fix the link bug
 
 ## Want to add:
 
@@ -46,3 +45,5 @@ This is my personal portfolio website.
     -- ~~Work Experience~~
     -- ~~Education~~
     -- ~~Content~~
+
+    -- ~~Fix the link bug~~
