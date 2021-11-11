@@ -29,6 +29,7 @@ app.use((err, req, res, next) => {
 // to handle request for page that doesnt exist
 app.use((req, res, next) => {
     // res.status(404).send('page not found');
+    res.redirect('/');
 });
 
 // other errors
