@@ -4,13 +4,14 @@ This is my personal portfolio website.
 
 ## Currently Working on:
 
-## Want to add:
-
 -   More info about side projects
 -   More info about freelance
+
+## Want to add:
+
 -   Interests
+-   Use material UI ??
 -   Scrolling animation on the sidebar <== working on this now
--   Use material UI
 
 ## For future:
 
