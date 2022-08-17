@@ -6,7 +6,7 @@ const NavBar = () => {
     const ref = useRef();
 
     return (
-                <Nav>
+        <Nav>
             <img src='/public/assets/logo2.png' width='130px' alt='Logo' />
             <Link to='home' style={{ textDecoration: 'none' }}>
                 <MainLink>Contact Me</MainLink>
