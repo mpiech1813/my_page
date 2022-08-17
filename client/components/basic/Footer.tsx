@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import {Foot} from '../../style.js'
 
 class Footer extends Component {
     render() {
         return (
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <Foot>
                 <h3>Thank you for visiting</h3>
-            </div>
+            </Foot>
         );
     }
 }
