@@ -75,6 +75,13 @@ export const HypLink = styled.a`
   // border: 1px solid red;
 `;
 
+export const Foot = styled.div`
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: #04b800;
+`;
+
 export const StyCom = {
   Nav,
   MainLink,
@@ -87,6 +94,7 @@ export const StyCom = {
   SpaceDiv,
   Break,
   HypLink,
+  Foot,
 };
 
 export default StyCom;
