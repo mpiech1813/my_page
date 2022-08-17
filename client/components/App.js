@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import StickyBox from "react-sticky-box";
 
 import { MainContainer } from "../style";
-// import Footer from './basic/Footer';
+import Footer from "./basic/Footer.tsx";
 import NavBar from "./basic/Navbar.tsx";
 import About from "./main/About";
 import Contact from "./main/Contact";
@@ -33,7 +33,7 @@ class App extends Component {
             </Fragment>
           </MainContainer>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
