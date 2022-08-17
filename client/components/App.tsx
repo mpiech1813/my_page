@@ -2,8 +2,8 @@ import React, { Component, Fragment } from "react";
 import StickyBox from "react-sticky-box";
 
 import { MainContainer } from "../style";
-import Footer from "./basic/Footer.tsx";
-import NavBar from "./basic/Navbar.tsx";
+import Footer from "./basic/Footer";
+import NavBar from "./basic/Navbar";
 import About from "./main/About";
 import Contact from "./main/Contact";
 import Work from "./main/Work";
